@@ -9,140 +9,151 @@
   <script src="js/scipts.js"></script>
   <title>Quiz Board</title>
 </head>
-<div  class="sidebar">
+<div class="sidebar">
 
+<div class="sidebar-items">
 
-  <div class="well">
-    <p>CODING IS FUN!</p>
-    <ul>
-      <li>Javascript</li>
-      <li>Html</li>
-      <li>CSS</li>
-    </ul>
+  <h4>CODING IS FUN!</h4>
+
+  <ul>
+    <li>Javascript</li>
+    <li>Html</li>
+    <li>CSS</li>
+  </ul>
   </div>
-
-
 </div>
+
+
+
 
 <body>
   <div id="container" class="container">
 
 
     <div class="jumbotron">
-      <h1 class="bg-danger"> QUIZ BOARD</h1>
-      <h2> How good are you in coding? Let's find out?</h2>
+      <div class="textbox">
+        <h1 class="bg-danger"> QUIZ BOARD</h1>
+        <h2> How good are you in coding? Let's find out!</h2>
+      </div>
     </div>
     <div class="well">
       <form>
-      <ol>
-        <li id="question1">Which one of the following is an <strong>Array</strong> method?</li>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            .slice();
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            .concat();
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            .push();
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            .forEach();
-          </label>
-        </div>
+        <ol>
+          <li id="question1">Which one of the following is an <strong>Array</strong> method?</li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              .slice();
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              .concat();
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              .push();
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              .forEach();
+            </label>
+          </div>
 
 
-        <li id="question2">One of this is not a <strong>Data type</strong></li>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            Boolean
-          </label>
+          <li id="question2">One of this is not a <strong>Data type</strong>,which one?</li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              Boolean
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              String
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              Argument
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              Number
+            </label>
+          </div>
+          <li id="question3">Which one of these methods is found in <strong>Jquery?</strong></li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              .map();
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              .removeclass();
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              .push();
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              .charAt();
+            </label>
+          </div>
+          <li id="question4">Which one is of these is JavaScript <strong>library?</strong></li>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              Jquery
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              bootstrap
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              HTML
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="definition" value="">
+              Github
+            </label>
+          </div>
+        </ol>
+        <div id="submit">
+          <button type="button" name="Submit">Submit!</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          <button type="button" name="button">Retake Quiz</button>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            String
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            Argument
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            Number
-          </label>
-        </div>
-        <li id="question3">Which one of these methods is found in <strong>Jquery</strong></li>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            .map();
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            .removeclass();
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            .push();
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            .charAt();
-          </label>
-        </div>
-        <li id="question4">Which one is of these is JavaScript <strong>library?</strong></li>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            Jquery
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            bootstrap
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            HTML
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="definition" value="">
-            Github
-          </label>
-        </div>
-      </ol>
-      <div id="submit">
-      <button  type="button" name="Submit">Submit!</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-      <button type="button" name="button">Retake Quiz</button>
-      </div>
       </form>
+
+    </div>
+    <div class="well">
+      <div class="textbox">
+        <h3 class="bg-info">YOUR SCORE:</h3>
+      </div>
+
     </div>
 
 

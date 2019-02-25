@@ -6,19 +6,44 @@ h2{
   text-align: center;
   font-style: italic;
 }
+h3{
+  text-align: center;
+}
+h4{
+  text-align: center;
+color: #7d7d7d;
+text-decoration: underline;
+}
 body{
   background-color: #fed9ca
 }
 
 #container{
   margin-left: 0% ;
-  margin-right: 18%;
+  margin-left: 18%;
+  width: 82%;
 
 }
-.sidebar{
-  width: 18% ;
-  padding-top: 100px;
+.sidebar {
+ height: 100%;
+ width: 18%;
+ position: fixed;
+ z-index: 1;
+ background-color:#fff0bc;
+ overflow-x: hidden;
+ overflow-y: hidden;
+
+}
+.sidebar-items{
+
+  padding-top: 200px;
+  color: #f05a28
+
 }
 #submit{
 margin-left: 40%
 }
+.textbox {
+    border: 2px solid black;
+
+  }
