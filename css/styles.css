@@ -8,3 +8,14 @@ h2{
 body{
   background-color: #fed9ca
 }
+
+#container{
+  margin-left: 0% ;
+  margin-right: 18%;
+  margin-top: 0px;
+
+}
+.sidebar{
+  width: 18% ;
+  padding-top: 100px;
+}
