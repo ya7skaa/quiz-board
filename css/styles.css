@@ -1,60 +1,66 @@
-h1{
+h1 {
   font-family: 'Playfair Display SC', serif;
   text-align: center;
   text-decoration: underline;
 }
-h2{
+
+h2 {
   font-family: 'Poiret One', cursive;
   text-align: center;
   font-style: italic;
 }
-h3{
+
+h3 {
   text-align: center;
 }
-h4{
+
+h4 {
   font-family: 'Playfair Display SC', serif;
   font-size: 30px;
   text-align: center;
-color: #7d7d7d;
-text-decoration: underline;
+  color: #7d7d7d;
+  text-decoration: underline;
 }
-body{
+
+body {
   background-color: #fed9ca
 }
 
-#container{
-  margin-left: 0% ;
+#container {
+  margin-left: 0%;
   margin-left: 18%;
   width: 82%;
-
 }
+
 .sidebar {
- height: 100%;
- width: 18%;
- position: fixed;
- z-index: 1;
- background-color:#fff0bc;
- overflow-x: hidden;
- overflow-y: hidden;
-
+  height: 100%;
+  width: 18%;
+  position: fixed;
+  z-index: 1;
+  background-color: #fff0bc;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
-.sidebar-items{
 
+.sidebar-items {
   padding-top: 200px;
   color: #f05a28
+}
 
+#submit {
+  margin-left: 40%
 }
-#submit{
-margin-left: 40%
-}
+
 .textbox {
-    border: 2px solid black;
-text-align: center;
-  }
-  .info{
-    text-align: center;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
   color: #1a3263;
-  }
-  p{
-    font-size: 20px;
-  }
+}
+
+p {
+  font-size: 20px;
+}
