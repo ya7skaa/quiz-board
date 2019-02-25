@@ -14,7 +14,7 @@ Quiz-Board is a web app that allows a user  to attempt a few questions to test t
 | Gathers user input | retrieve values from the form types | validates the inputs |
 | Calculates the input values from the use  | radio button values | adds the values|
 | Awards marks| Based on the inputs entered| Displays the final score|
-
+|  |  | |
 
 ## Setup/Installation Requirements
 * Have a functional Github account
@@ -23,6 +23,7 @@ Quiz-Board is a web app that allows a user  to attempt a few questions to test t
 * Access it on your Github account
 ## Known Bugs
 currently there is not any bugs detected ,incase you encounter other bugs please reach out via the email I have provided.
+This webpage doesn't not require any other tool or software to run.It also doesn't require any other dependancies.
 ## Technologies Used
 * CSS
 * HTML
