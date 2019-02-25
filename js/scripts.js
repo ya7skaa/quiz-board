@@ -6,5 +6,6 @@ $(document).ready(function(){
       percentage = (update/50)*100;
     });
    document.getElementById("total").innerHTML = " YOUR SCORE IS: " + percentage + "%";
+
  });
 });
