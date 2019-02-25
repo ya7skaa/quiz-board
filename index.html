@@ -15,11 +15,11 @@
 
   <h4>CODING IS FUN!</h4>
 <div class="textbox">
-  <ul>
-    <li>Javascript</li>
-    <li>Html</li>
-    <li>CSS</li>
-  </ul>
+
+    <p>Javascript</p>
+    <p>Html</p>
+    <p>CSS</p>
+
   </div>
   </div>
 </div>
@@ -43,25 +43,25 @@
           <li id="question1">Which one of the following is an <strong>Array</strong> method?</li>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition1" Value="0">
               .slice();
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
-              .concat();
+              <input type="radio" name="definition1" Value="0">
+              .search();
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition1" Value="10">
               .push();
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition1" Value="0">
               .forEach();
             </label>
           </div>
@@ -70,81 +70,81 @@
           <li id="question2">One of this is not a <strong>Data type</strong>,which one?</li>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition2" Value="0">
               Boolean
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition2" Value="0">
               String
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition2" Value="10">
               Argument
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition2" Value="0">
               Number
             </label>
           </div>
           <li id="question3">Which one of these methods is found in <strong>Jquery?</strong></li>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition3" Value="0">
               .map();
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition3" Value="10">
               .removeclass();
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition3" Value="0">
               .push();
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition3" Value="0">
               .charAt();
             </label>
           </div>
           <li id="question4">Which one is of these is JavaScript <strong>library?</strong></li>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition4" Value="10">
               Jquery
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition4" Value="0">
               bootstrap
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition4" Value="0">
               HTML
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="definition" value="">
+              <input type="radio" name="definition4" Value="0">
               Github
             </label>
           </div>
         </ol>
         <div id="submit">
-          <button type="button" name="Submit">Submit!</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          <button id="find" onclick="quizMarks()" type="button" name="Submit">Submit!</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
           <button type="button" name="button">Retake Quiz</button>
         </div>
       </form>
@@ -152,7 +152,9 @@
     </div>
     <div class="well">
       <div class="textbox">
-        <h3 class="bg-info">YOUR SCORE:</h3>
+
+        <h3 id="total" class="bg-info"></h3>
+
       </div>
 
     </div>
