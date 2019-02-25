@@ -1,5 +1,5 @@
 Yasmin Abdirahman[9.20am]
-# Quiz Board (QB)
+# Quiz Board
 #### Quiz Board, February 23th 2019
 #### By **Yasmin Abdirhman**
 ## Description
@@ -17,10 +17,10 @@ Quiz-Board is a web app that allows a user  to attempt a few questions to test t
 
 
 ## Setup/Installation Requirements
-* 1.Have a functional Github account
-* 2.On my Github profile ,select the project name (Quiz Board)
-* 3.fork the repository
-* 4.Access it on your Github account
+* Have a functional Github account
+* On my Github profile ,select the project name (Quiz Board)
+* Fork the repository.
+* Access it on your Github account
 ## Known Bugs
 currently there is not any bugs detected ,incase you encounter other bugs please reach out via the email I have provided.
 ## Technologies Used
@@ -41,7 +41,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 For any inquiries or contributions please contact me on yaazzmineoz@gmail.com
 licensing.
 
-Message Input
+
 
 
 Message Yasmin Abdirhman
