@@ -1,3 +1,4 @@
+//Business logic
 $(document).ready(function(){
   $("button#find").click(function quizMarks(event){
     var marks = 0;
@@ -5,6 +6,13 @@ $(document).ready(function(){
       update = marks += parseInt($(this).val());
       percentage = (update/50)*100;
     });
+
+
+
+
+
+
+    //Output to User interface
    document.getElementById("total").innerHTML = " YOUR SCORE IS: " + percentage + "%";
 
  });
